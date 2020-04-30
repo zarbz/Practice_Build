@@ -13,7 +13,7 @@ export default function ReviewDetails({ navigation }) {
                 <Text>{ navigation.getParam('title') }</Text>
                 <Text>{ navigation.getParam('body') }</Text>
                 <View style={styles.rating}>
-                    <Text>GameZone Rating</Text>
+                    <Text>Priority Rating</Text>
                     <Image source={images.ratings[rating]}/>
 
                 </View>
